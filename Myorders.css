@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+}
+
+.orders-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+.filter-btn {
+    background-color: #eee;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.orders-table th,
+.orders-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.orders-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.orders-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.details-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.details-btn:hover {
+    background-color: #0056b3;
+}
+
+.older-orders {
+    font-size: 14px;
+    color: #777;
+}
+
+.older-orders a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.older-orders a:hover {
+    text-decoration: underline;
+}

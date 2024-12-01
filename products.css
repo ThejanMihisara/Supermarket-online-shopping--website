@@ -1,0 +1,239 @@
+
+.products-color1{
+    color: black;
+    font-size:24px;
+    font-weight: bold;
+}
+.products-color2{
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+.product-slide1 {
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    top:-10px;
+    left: 0px;
+    right: 20px;
+}
+
+.product-slide2 {
+    width: 100%;
+    display: flex;
+}
+.product-tag{
+    font-size: 16px;
+    margin: 20px;
+    top: -15px;
+    position: relative;
+    
+}
+.product-tag a{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.product-tag a:hover{
+    text-decoration: underline;
+}
+.products-container {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    position: relative;
+    top: -30px;
+    max-width: 1450px;
+    margin: 0 auto;
+}
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 30px;
+    padding: 20px;
+    justify-items: center;
+    cursor: pointer;
+  }
+  
+.products-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+.products-item img {
+    width: 160px;
+    height: auto;
+    margin-bottom: 30px;
+    cursor: pointer;
+   
+  }
+  
+.products-item h4 {
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+
+  }
+  
+.products-item p {
+    font-size: 14px;
+    cursor: pointer;
+    color: #555;
+
+  }
+button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+.button:hover{
+    background-color: green;
+}
+  
+.products-item button:hover {
+    background-color:red;
+  }
+.products-item:hover {
+    transform: scale(1.05);
+}
+footer {
+    margin: 0;
+    padding: 0;
+    height: 1px;
+}
+.footerbar2 {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+    background-color: white;
+    color: orange;
+    top: 25px;
+    position:relative ;
+}
+.footerbar3 {
+    flex: 1;
+    margin: 0 20px;
+}
+.footerbar3 h4 {
+    margin-bottom: 15px;
+    color:black;
+    padding: 0px 80px;
+    font-family: cursive;
+}
+.footerbar3 ul {
+    list-style: none;
+    padding: 0px 80px;
+}
+.footerbar3 ul li a {
+    color:black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.footerbar3 ul li a:hover {
+    color:skyblue
+}
+.footerbar4 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    top: 35px;
+
+}
+
+.promotion-container {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    position: relative;
+    top: 10px;
+    max-width: 1450px;
+    margin: 0 auto;
+  text-decoration: none;
+}
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.promotion-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    padding: 20px;
+    justify-items: center;
+    cursor: pointer;
+  }
+  
+.promotion-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 250px;
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+.promotion-item img {
+    width: 160px;
+    height: auto;
+    margin-bottom: 30px;
+    cursor: pointer;
+   
+  }
+  
+.promotion-item h4 {
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+.promotion-item p {
+    font-size: 14px;
+    cursor: pointer;
+    color: #555;
+    text-decoration: none;
+  
+  }
+button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+.button:hover{
+    background-color: green;
+}
+.promotion-item button:hover {
+    background-color:red;
+  }
+.promotion-item:hover {
+    transform: scale(1.05);
+}

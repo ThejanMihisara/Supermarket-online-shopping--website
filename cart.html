@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <link rel="icon" href="new logo.png" type="image/x-icon">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>KTM SuperMart | 747/1 Online Grocery Store & supermarket in Sri Lanka.</title>
+
+
+    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="otherpage.css">
+    <style>
+.continue-shopping-button {
+    background-color: #1C831C;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+.checkout-button a{
+    text-decoration: none;
+}
+.continue-shopping-button a{
+    text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.cart-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+}
+
+.item-details {
+    display: flex;
+    align-items: center;
+}
+
+.item-details img {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.item-details h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.item-details p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-control button {
+    width: 30px;
+    height: 30px;
+    background-color: #f44;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.quantity-control button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.quantity-control input {
+    width: 40px;
+    text-align: center;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.subtotal {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.subtotal h3 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.checkout-btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #f44;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.checkout-btn:hover {
+    background-color: #d33;
+}
+ 
+</style>
+        
+
+</head>
+
+<body bgcolor="#f2f2f2">
+    <script src="Home.js"></script>
+    <div class="banner">
+
+        <div  class="navbar">
+ 
+        <a href="Home.html"><img src="new logo.png" alt="KTM Supermart"
+         class="logo"></a>
+
+
+         <ul>
+            <li><a href="Home.html">Home</a></li>
+
+                <li class="dropdown">
+                <a href="#">KTM Products⮟</a>
+  
+                <div class="dropdown-content">
+                  <a href="Dairyproduct.html">Dairy Products</a>
+                  <a href="vegetables.html">Vegetables</a>
+                  <a href="fruits.html">Fruits</a>
+                  <a href="stationery.html">Stationery</a>
+                  <a href="household.html">Household</a>
+                  <a href="bakery.html">Bakery</a>
+                  <a href="snacks.html">Snacks</a>
+                  <a href="#">Beverages</a>
+                </div>
+      </li>
+           
+            <li><a href="all_promotion.html">All Promotions</a></li>
+            <li><a href="notice.html">Notice</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>  
+
+
+           
+        </ul>
+        <div class="search" >
+            <input class="srch" type="search" name="" placeholder="Type To Text" >
+         
+            <a href="searchbox.html"><button class="btn">Search</button></a>
+          
+            <div class="login">
+     
+                <a href="login.html">Login/Sign Up <img src="img12.jpg" width="25px" 
+                    class="logo3"></a>
+            
+            </div>  
+        
+           <a href="cart.html" ><img src="img11.jpg" width="25px" 
+            class="logo2"></a>
+        </div>
+
+        </div>
+    </div>
+
+    <div class="cart-container">
+        <h2>Review Cart (3 items)</h2>
+        <div class="cart-item">
+            <div class="item-details">
+                <img src="cartimg.jpg" alt="cartimg.jpg">
+                <div>
+                    <h3>Ride Classic Energy Drink - 250.00 ml</h3>
+                    <p>Rs.262.50 (Inclusive of all taxes)</p>
+                </div>
+            </div>
+            <div class="quantity-control">
+                <button class="decrement" data-price="262.50">-</button>
+                <input type="text" value="1" readonly>
+                <button class="increment" data-price="262.50">+</button>
+            </div>
+        </div>
+        <div class="cart-item">
+            <div class="item-details">
+                <img src="cartimg1.jpg" alt="cartimg1.jpg">
+                <div>
+                    <h3>Kist Apple Nectar - 1.00 l</h3>
+                    <p>Rs. 467.50 (Inclusive of all taxes)</p>
+                </div>
+            </div>
+            <div class="quantity-control">
+                <button class="decrement" data-price="467.50">-</button>
+                <input type="text" value="1" readonly>
+                <button class="increment" data-price="467.50">+</button>
+            </div>
+        </div>
+        <div class="cart-item">
+            <div class="item-details">
+                <img src="cartimg2.jpg" alt="cartimg2.jpg">
+                <div>
+                    <h3>Kist Absolute Orange Juice - 1.00 l</h3>
+                    <p>Rs. 1125.00 (Inclusive of all taxes)</p>
+                </div>
+            </div>
+            <div class="quantity-control">
+                <button class="decrement" data-price="1125.00 ">-</button>
+                <input type="text" value="1" readonly>
+                <button class="increment" data-price="1125.00 ">+</button>
+            </div>
+        </div>
+        <div class="subtotal">
+            <h3>Sub Total: Rs <span id="subtotal">522.00</span></h3>
+        </div>
+        <button class="checkout-btn">Proceed to Checkout</button>
+    </div>
+                <button class="continue-shopping-button"><a href="Home.html" class="continue">Continue Shopping</button></a>
+            </div>
+      
+        </div>
+        </div>
+        <footer>
+            <div class="footerbar2">
+                <div class="footerbar3">
+                    <h4>Quick_Access</h4>
+                    <ul>
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="all_promotion.html">All_Promotions</a></li>
+                    </ul>
+                </div>
+                <div class="footerbar3">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="Dairyproduct.html">Dairy_Products</a></li>
+                        <li><a href="vegetables.html">Vegetables</a></li>
+                        <li><a href="fruits.html">Fruits</a></li>
+                        <li><a href="stationery.html">Stationery</a></li>
+                        <li><a href="household.html">Household</a></li>
+                        <li><a href="bakery.html">Bakery</a></li>
+                        <li><a href="snacks.html">Snacks</a></li>
+                    </ul>
+                </div>
+                <div class="footerbar3">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="privacypolicy.html">Privacy_Policy</a></li>
+                        <li><a href="terms_condition.html">Terms_and_Conditions</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footerbar3">
+                    <h4>Customer_Service</h4>
+                    <ul>
+                        <li><a href="contact_us.html">Contact_Us</a></li>
+                        <li><a href="about_us.html">About_Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footerbar4">
+                <p>&copy; 2024 KTM SuperMart. All rights reserved.</p>
+            </div>
+        </footer>
+
+
+
+
+    </body>
+    </html>
